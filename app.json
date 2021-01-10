@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "MaxWin v3",
+    "slug": "maxwin-v3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#4898D3",
+      "translucent": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookScheme": "fb424654075104803",
+    "facebookAppId": "424654075104803",
+    "facebookDisplayName": "MaxWin",
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.us.maxwin",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "Permissions.NOTIFICATIONS"
+      ]
+    },
+    "description": ""
+  }
+}
